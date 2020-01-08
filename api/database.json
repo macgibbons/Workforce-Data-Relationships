@@ -1,0 +1,62 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Macbook Pro",
+            "year": 2019
+        },
+        {
+            "id": 3,
+            "model": "Macbook Air",
+            "year": 2012
+        },
+        {
+            "id": 4,
+            "model": "iMac",
+            "year": 2020
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 27,
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Mac",
+            "lastName": "Gibbons",
+            "age": 27,
+            "computerId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "Garrett",
+            "lastName": "Freshwater",
+            "age": 29,
+            "computerId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Eli",
+            "lastName": "Gibbons",
+            "age": 30,
+            "computerId": 4
+        },
+        {
+            "id": 5,
+            "firstName": "Dom",
+            "lastName": "Granda",
+            "age": 26,
+            "computerId": 4
+        }
+
+    ]
+}

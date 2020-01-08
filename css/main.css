@@ -1,0 +1,18 @@
+.employee__Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.employee__card {
+    flex-basis: 100;
+    border: 1px solid black;
+    max-width: 250px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center
+}
+
+.employee__card:hover {
+    background-color: gray;
+}
