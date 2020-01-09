@@ -1,17 +1,21 @@
-const Employee = (employee, computer) => {
+const Employee = (employee, computer, department) => {
     return `
         <section class="employee__card">
-            <header>
-                <h2>Employee: ${employee.firstName} ${employee.lastName}</h2>
+            <header class="employee__name">
+                <h1>${employee.firstName} ${employee.lastName}</h1>
                 <div>${employee.age} years old</div>
             </header>
+            
             <div>
-                Computer: ${computer.model}
+                Currently using a ${computer.year} ${computer.model}
             </div>
-            <div>
-                Computer year: ${computer.year}
-            </div>
+            
+            <section class="employee__department">
+                Works in the ${department.name} department
+            </section>
         </section>
+
+</div>
     `
 }
 
