@@ -28,7 +28,8 @@
             "lastName": "Ittycheriah",
             "age": 27,
             "computerId": 1,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId": 1
         },
         {
             "id": 2,
@@ -36,7 +37,8 @@
             "lastName": "Gibbons",
             "age": 27,
             "computerId": 3,
-            "departmentId": 1
+            "departmentId": 1,
+            "locationId": 2
         },
         {
             "id": 3,
@@ -44,7 +46,8 @@
             "lastName": "Freshwater",
             "age": 29,
             "computerId": 2,
-            "departmentId": 4
+            "departmentId": 4,
+            "locationId": 1
         },
         {
             "id": 4,
@@ -52,7 +55,8 @@
             "lastName": "Gibbons",
             "age": 30,
             "computerId": 4,
-            "departmentId": 2
+            "departmentId": 2,
+            "locationId": 3
         },
         {
             "id": 5,
@@ -60,7 +64,8 @@
             "lastName": "Granda",
             "age": 26,
             "computerId": 4,
-            "departmentId": 3
+            "departmentId": 3,
+            "locationId": 2
         }
 
     ], 
@@ -80,6 +85,20 @@
         {
             "id": 4,
             "name": "Creative"
+        }
+    ], 
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville"
+        },
+        {
+            "id": 2,
+            "city": "Memphis"
+        },
+        {
+            "id": 3,
+            "city": "Atlanta"
         }
     ]
 }
