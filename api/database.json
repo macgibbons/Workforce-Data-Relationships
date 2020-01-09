@@ -100,5 +100,81 @@
             "id": 3,
             "city": "Atlanta"
         }
+    ], 
+    "customers": [
+        {
+            "id": 1,
+            "businessName": "Duck & Dovetail"
+        },
+        {
+            "id": 2,
+            "businessName": "Oil & Lumber"
+        },
+        {
+            "id": 3,
+            "businessName": "Imogene & Willie"
+        },
+        {
+            "id": 4,
+            "businessName": "GS&F"
+        },
+        {
+            "id": 5,
+            "businessName": "40au"
+        }
+        
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "employeeId": 1,
+            "customerId": 1,
+            "rate": 75,
+            "term": 30
+        },
+        {
+            "id": 2,
+            "employeeId": 2,
+            "customerId": 3,
+            "rate": 15,
+            "term": 356
+        },
+        {
+            "id": 3,
+            "employeeId": 2,
+            "customerId": 2,
+            "rate": 25,
+            "term": 400
+        },
+        {
+            "id": 4,
+            "employeeId": 4,
+            "customerId": 4,
+            "rate": 100,
+            "term": 100
+        },
+        {
+            "id": 5,
+            "employeeId": 4,
+            "customerId": 5,
+            "rate": 100,
+            "term": 100
+        },
+        {
+            "id": 6,
+            "employeeId": 4,
+            "customerId": 3,
+            "rate": 100,
+            "term": 100
+        },
+        {
+            "id": 7,
+            "employeeId": 5,
+            "customerId": 4,
+            "rate": 50,
+            "term": 250
+        }
+        
     ]
+    
 }
