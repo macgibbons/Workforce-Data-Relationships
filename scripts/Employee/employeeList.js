@@ -1,10 +1,10 @@
-import { useEmployees } from "./employeeProvider.js";
-import { useComputers } from "./computerProvider.js";
-import Employee from "./employee.js";
-import { useDepartments } from "./departmentProvider.js";
-import { useLocations } from "./locationProvider.js";
-import { useCustomers } from "./customerProvider.js";
-import { useEmployeeCustomer } from "./Providers/employeeCustomerProvider.js";
+import { useEmployees } from "../Providers/employeeProvider.js";
+import { useComputers } from "../Providers/computerProvider.js";
+import Employee from "../Employee/employee.js";
+import { useDepartments } from "../Providers/departmentProvider.js";
+import { useLocations } from "../Providers/locationProvider.js";
+import { useCustomers } from "../Providers/customerProvider.js";
+import { useEmployeeCustomer } from "../Providers/employeeCustomerProvider.js";
 
 const contentTarget = document.querySelector(".employee__Container")
 
@@ -17,7 +17,10 @@ export const EmployeeList = () => {
     const empCust = useEmployeeCustomer()
 
     const render = () => {
-        contentTarget.innerHTML = employees.map(employee => {
+        contentTarget.innerHTML = `
+        <h1>Employees</h1>
+        <article class="employees">
+        ${employees.map(employee => {
             // Find this product's type
             const computer = computers.find(computer => computer.id === employee.computerId)
 
@@ -37,7 +40,9 @@ export const EmployeeList = () => {
             const html = Employee(employee, computer, department, location, foundCustomersArray)
 
             return html
-        }).join("")
+        }).join("")}
+        </article>
+        `
     }
 
     render()
